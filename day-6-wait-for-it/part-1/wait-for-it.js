@@ -29,3 +29,5 @@ function calculate(time, distance) {
     return a.filter((x) =>{ return x.distance > distance}).length
 }
 
+console.log("result: ", result)
+
